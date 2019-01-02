@@ -35,4 +35,12 @@ public class BookShop {
 		System.out.println("*****도서 정보 출력하기******");
 		displayBookInfo( books );
 	}
+
+	public static void displayBookInfo(Book[] books) {
+		// TODO Auto-generated method stub
+		for(Book book : books) {
+			book.print();
+		}
+	}
+	
 }

@@ -1,5 +1,14 @@
 package prob01;
 
+/*
+ * 
+<실행 값>
+10
+true
+5.7
+홍길동
+
+ * */
 public class PrinterTest {
 
 	public static void main(String[] args) {
